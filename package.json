@@ -26,7 +26,7 @@
   "license": "MIT",
   "dependencies": {
     "request": "~2.34.0",
-    "commander": "~2.1.0",
+    "commander": "~2.20.3",
     "rss-emitter": "git://github.com/DimensionSoftware/node-rss-emitter",
     "prelude-ls": "~1.1.1"
   }
