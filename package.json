@@ -25,7 +25,7 @@
   "author": "John BEPPU",
   "license": "MIT",
   "dependencies": {
-    "request": "~2.34.0",
+    "request": "~2.75.0",
     "commander": "~2.1.0",
     "rss-emitter": "git://github.com/DimensionSoftware/node-rss-emitter",
     "prelude-ls": "~1.1.1"
