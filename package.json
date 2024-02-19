@@ -12,7 +12,9 @@
     "pb-rss-import": "./bin/pb-rss-import"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "keywords": [
     "forum",
@@ -28,6 +30,8 @@
     "request": "~2.34.0",
     "commander": "~2.1.0",
     "rss-emitter": "git://github.com/DimensionSoftware/node-rss-emitter",
-    "prelude-ls": "~1.1.1"
-  }
+    "prelude-ls": "~1.1.1",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
