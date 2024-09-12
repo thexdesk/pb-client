@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:validator:20130705-1':
+    - node-rss-emitter > feedparser > resanitize > validator:
+        patched: '2024-09-12T01:46:50.996Z'
+        id: 'npm:validator:20130705-1'
+        path: node-rss-emitter > feedparser > resanitize > validator
